@@ -3,15 +3,17 @@ import React from 'react';
 import { Container, Row, Col } from '../../components/Grid';
 // import { Button, Input } from '../../components/Forms';
 
-export default function Home() {
+
+export default function Projects() {
 
     return (
         <Container>
             <Row>
                 <Col size={'md-2'}></Col>
                     <Col size={'md-8'}>
-                    <img style={image} src={require('../../assets/images/Danapic.jpeg')} alt={'profilepic'} />
-                    
+                    <img style={image} src={require('../../assets/images/project1.png')} alt={'Project1'} />
+                    <img style={image} src={require('../../assets/images/project2.png')} alt={'Project2'} />
+                    <img style={image} src={require('../../assets/images/project1.png')} alt={'Project1'} />
                     </Col>
                 <Col size={'md-2'}></Col>
            </Row>
@@ -20,6 +22,6 @@ export default function Home() {
 }
 
 const image = {
-    width: "200px",
-    height: "auto"
-   }
+ width: "200px",
+ height: "auto"
+}
